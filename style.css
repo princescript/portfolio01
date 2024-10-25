@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* nav css */
+.headerCon {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgba(252, 250, 250, 0.1);
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    color: white;
+
+}
+
+.navCon {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 50vw; */
+    gap: 4vw;
+
+}
+
+.logo {
+    font-size: 20px;
+    width: 500;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.navCon li {
+    list-style-type: none;
+    font-size: 20px;
+    width: 500;
+}
+
+.navCon li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo:hover {
+    border-bottom: 4px solid black;
+}
+
+.navCon li:hover {
+    border-bottom: 4px solid black;
+}
+
+/* main container css */
+.mainCon {
+
+    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat center;
+    height: 100vh;
+    width: 100vw;
+    min-height: 500px;
+    background-size: cover;
+}
+
+.mainOne {
+    width: 70vw;
+    box-sizing: border-box;
+
+    padding: 10vw;
+    color: gray;
+}
+
+.mainOne .first {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.mainOne .second {
+    font-size: 85px;
+    font-weight: 500;
+    color: red;
+}
+
+.mainOne .third {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.mainOne button {
+    border: none;
+    margin-top: 12px;
+    font-size: 20px;
+    width: 125px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.mainBtn:hover {
+    background-color: rgb(226, 5, 5);
+    color: white;
+}
+
+/* about */
+.mainTwo {
+    background: radial-gradient(#e1efff, white);
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.mainTwo h1 {
+
+    text-align: center;
+    padding: 5vh;
+
+    font-size: 35px;
+
+}
+
+.mainTwo,
+#p1 {
+    padding-top: -20px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+}
+
+.left {
+
+    width: 47%;
+    padding-left: 5%;
+}
+
+.left img {
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+
+}
+
+.right {
+    width: 47%;
+    padding-top: 8%;
+}
+
+.right .intro h2 {
+
+    font-size: 35px;
+}
+
+.right .intro p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.right .intro h2 span {
+    color: red;
+}
+
+.right .mindintro h2 {
+
+    font-size: 35px;
+}
+
+.right .mindintro h2 span {
+    color: red;
+}
+
+.right .mindintro p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.right .introBtn {
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 95);
+    color: white;
+}
+
+.introBtn:hover {
+    background-color: rgb(226, 5, 5);
+}
+
+/* services */
+.service {
+    background: radial-gradient(red, rgb(97, 6, 6));
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.service h1 {
+    padding-top: 12vh;
+    text-align: center;
+    font-size: 35px;
+}
+
+.service p {
+    padding-top: 1vh;
+    font-size: 18px;
+    text-align: center;
+}
+
+.serviceCard {
+    box-sizing: border-box;
+    color: #e1efff;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+    gap: 3vw;
+
+}
+
+.serviceCard .card1,
+.card2,
+.card3 {
+    text-align: center;
+    border: 2px solid black;
+    height: 40vh;
+    width: 27vw;
+    padding: 8vh;
+    align-items: center;
+    background-color: rgb(46, 36, 36);
+    border-radius: 10px;
+
+}
+
+.card1:hover {
+    background-color: rgb(41, 31, 31);
+}
+
+.card2:hover {
+    background-color: rgb(41, 31, 31);
+}
+
+.card3:hover {
+    background-color: rgb(41, 31, 31);
+}
+
+.serviceCard .card1,
+.card2,
+.card3 h1 {
+    font-size: 18px;
+}
+
+/* skills */
+.skill_Main {
+    background: radial-gradient(#e1efff, rgb(183, 187, 243));
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.skill_Main h1 {
+    text-align: center;
+    padding-top: 12vh;
+    font-size: 35px;
+}
+
+.skill_Main p {
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 18px;
+}
+
+.skill_Con {
+    padding-top: 8vh;
+    display: flex;
+}
+
+.skill_Proj {
+    width: 50vw;
+    padding-left: 5vw;
+}
+
+.skill_Proj1,
+.skill_Proj2,
+.skill_Proj3 {
+    padding-top: 3vh;
+}
+
+.skill_s {
+    width: 50vw;
+    padding-left: 5vw;
+
+}
+
+.skill_s1,
+.skill_s2,
+.skill_s3 {
+
+    padding-top: 3vh;
+}
+
+/* contact */
+.contactMain {
+    background: radial-gradient(rgb(68, 68, 68), black);
+
+
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.contactMain h1 {
+    padding-top: 12vh;
+    text-align: center;
+    font-size: 35px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactLeft,
+.contactRight {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 8vh
+}
+
+/* .contactLeft h3,
+p {
+    padding-top: 6vh; 
+}*/
+
+.contactLeft h3 {
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+}
+
+/* contactright */
+
+.contactRight h3 {
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+
+}
+
+#btn {
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+
+footer {
+    text-align: center;
+}
